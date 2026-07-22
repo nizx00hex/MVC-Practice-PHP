@@ -1,5 +1,7 @@
 <?php
 class StudentController {
+
+
     public function index(): void {
         $studentModel = new Student();
 
@@ -11,4 +13,6 @@ class StudentController {
     public function create(): void {
         require __DIR__ . '/../Views/students/create.php';
     }
+
+    
 }

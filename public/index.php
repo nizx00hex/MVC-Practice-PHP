@@ -1,5 +1,5 @@
 <?php
-
+require_once __DIR__ . '/../app/Core/Database.php';
 require_once __DIR__ . '/../app/Models/Student.php';
 require_once __DIR__ . '/../app/Controllers/HomeController.php';
 require_once __DIR__ . '/../app/Controllers/StudentController.php';

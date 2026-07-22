@@ -32,7 +32,7 @@
                     </td>
 
                     <td>
-                        <?= htmlspecialchars($student['passion']) ?>
+                        <?= htmlspecialchars($student['course']) ?>
                     </td>
                 </tr>
             <?php endforeach; ?>
